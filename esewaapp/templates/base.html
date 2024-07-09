@@ -18,7 +18,7 @@
       <img src="{{ card.image.url }}" class="card-img-top" alt="image" height = "100px" width = "100px"/>
       <h5 class="card-title">{{ card.title }}</h5>
       <p class="card-text">Price: {{ card.price }}</p>
-      <a href="{% url 'esewa' card.id %}" class="btn btn-primary">Enroll Now</a>
+      {% comment %} <a href="{% url 'esewa' card.id %}" class="btn btn-primary">Enroll Now</a> {% endcomment %}
     {% endfor %}
       
 
