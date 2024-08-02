@@ -1,5 +1,4 @@
 from django.contrib import admin
-
+from .models import *
 # Register your models here.
-from .models import Card
-admin.site.register(Card)
+admin.site.register(Product)
